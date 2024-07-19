@@ -8,9 +8,12 @@ const Home = () => {
  
  <SimpleGrid id="home" columns={2} spacing={10}
   // bg='rgb(170,210,175)' 
-  bg={"#DCF2FD"}
+  //bg={"#DCF2FD"}
+  bg={'#010101'}
+  color='#840000' 
   height='100vh'
-   color='black'  display={['none','none','none', 'grid']}>
+   //color='black'
+   display={['none','none','none', 'grid']}>
   <Box  m='auto' ml={'20'} >
        <Text  fontSize='4xl' >
              𝐇𝐞𝐥𝐥𝐨, 𝐦𝐲 𝐧𝐚𝐦𝐞 𝐢𝐬</Text>
@@ -54,8 +57,11 @@ const Home = () => {
      
 
      
- <SimpleGrid id="homes" raw={2} spacing={10} bg='rgb(150,215,175)' height='100vh'
-   color='black'  display={['grid','grid','grid', 'none']}>
+ <SimpleGrid id="homes" raw={2} spacing={10}
+  // bg='rgb(150,215,175)' 
+  bg={'#292929'}
+  height='100vh'
+   color='#500000'  display={['grid','grid','grid', 'none']}>
   <Box  m='auto' >
        <Text  fontSize='3xl' >
              𝐇𝐞𝐥𝐥𝐨, 𝐦𝐲 𝐧𝐚𝐦𝐞 𝐢𝐬</Text>
