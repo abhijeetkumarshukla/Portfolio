@@ -11,7 +11,9 @@ const Navbar = () => {
   const [size, setSize] = useState('')
   const { isOpen, onOpen, onClose } = useDisclosure()
 
-
+  const scrollTo = () => {
+    scroll.scrollTo(100);  
+  };
  
   const handleClick = (newSize) => {
     setSize(newSize)
@@ -98,15 +100,16 @@ const Navbar = () => {
           <DrawerCloseButton />
            
           <DrawerBody>
-
+ 
           <Flex flexDirection="column" fontSize="25" pt="20" alignItems="center" gap="6">
       <Link
         activeClass="active"
-        to="home"
+        to="homes"
         fontSize="25"
         spy={true}
         smooth={true}
-        offset={-500}
+        offset={-70}
+        // offset={-4000}
         duration={500}
       >
         𝐇𝐨𝐦𝐞
@@ -114,23 +117,27 @@ const Navbar = () => {
 
       <Link
         activeClass="active"
-        to="about"
+        to="abouts"
         fontSize="25"
         spy={true}
         smooth={true}
-        offset={500}
+        offset={-70}
         duration={500}
+        // onSetActive={scrollTo}
+        onClick={scrollToSection('about')}
       >
+        
         𝐀𝐛𝐨𝐮𝐭
       </Link>
 
       <Link
         activeClass="active"
-        to="skills"
+        to="skill"
         fontSize="25"
         spy={true}
         smooth={true}
-        offset={0}
+        // offset={0}
+        offset={-65}
         duration={500}
       >
         𝐒𝐤𝐢𝐥𝐥𝐬
@@ -142,7 +149,8 @@ const Navbar = () => {
         fontSize="25"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={60}
+        // offset={-3500}
         duration={500}
       >
         𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬
@@ -150,11 +158,12 @@ const Navbar = () => {
 
       <Link
         activeClass="active"
-        to="statistics"
+        to="statistic"
         fontSize="25"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-70}
+        // offset={0}
         duration={500}
       >
         𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐜𝐬
@@ -162,20 +171,21 @@ const Navbar = () => {
 
       <Link
         activeClass="active"
-        to="contacts"
+        to="contact"
         fontSize="25"
         spy={true}
+        offset={-75}
         smooth={true}
-        offset={2500}
-        onset={900}
+        // offset={4000}
+ 
         duration={300}
       >
         𝐂𝐨𝐧𝐭𝐚𝐜𝐭
       </Link>
-    </Flex>
+    </Flex> 
 
-
-            {/* <Flex flexDirection="column" pt="20" alignItems="center" gap="6">
+{/* 
+            <Flex flexDirection="column" pt="20" alignItems="center" gap="6">
               <Text cursor="pointer" fontSize="25" onClick={scrollToSection('home')}>𝐇𝐨𝐦𝐞</Text>
               <Text cursor="pointer" to='/about' fontSize="25" onClick={scrollToSection('about')}>𝐀𝐛𝐨𝐮𝐭</Text>
               <Text cursor="pointer" fontSize="25" onClick={scrollToSection('skills')}>𝐒𝐤𝐢𝐥𝐥𝐬</Text>
@@ -185,7 +195,7 @@ const Navbar = () => {
               <ButtonGroup mr="3">
                 <Button colorScheme="yellow" pt={-2} pb={0} fontSize="16" color="#0d8096">𝐑𝐞𝐬𝐮𝐦𝐞</Button>
               </ButtonGroup>
-            </Flex>  */}
+            </Flex>   */}
           </DrawerBody>
         </DrawerContent>
       </Drawer>

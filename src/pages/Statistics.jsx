@@ -27,11 +27,11 @@ const Statistics = () => {
 
        {/* ------------------------------------------------------------------  */}
 
-       <Heading pl={'35%'}  id="statistics"  pt={'8'}  bg="rgb(170,215,175)" color='black' fontSize={'4xl'}
+       <Heading pl={'35%'}    pt={'8'}  bg="rgb(170,215,175)" color='black' fontSize={'4xl'}
               display={['grid','grid','none', 'none']} > 𝐒𝗍α𝗍𝗂𝗌𝗍𝗂𝖼𝗌
               </Heading>
 
-        <SimpleGrid column={2}  id="statistics" pt={'8'}   bg="rgb(170,215,175)" color='black' height='84vh'
+        <SimpleGrid column={2}  id="statistic" pt={'8'}   bg="rgb(170,215,175)" color='black' height='84vh'
              display={['grid','grid','none', 'none']} >
            <Box   >
             <Image w={'100%'} h={'60%'} src=" https://ghchart.rshah.org/abhijeetkumarshukla" alt="gitStats"/>
@@ -50,11 +50,11 @@ const Statistics = () => {
         {/* ---------------------------------------------------------------------- */}
 
 
-        <Heading pl={'40%'}  id="statistics" pt={'8'}  bg="rgb(170,215,175)" color='black' fontSize={'4xl'}
+        <Heading pl={'40%'}   pt={'8'}  bg="rgb(170,215,175)" color='black' fontSize={'4xl'}
               display={['none','grid','grid', 'none']} > 𝐒𝗍α𝗍𝗂𝗌𝗍𝗂𝖼𝗌
               </Heading>
 
-        <SimpleGrid column={2}  id="statistics"  pt={5}   bg="rgb(170,215,175)" color='black' height='84vh'
+        <SimpleGrid column={2}  id="statistic"  pt={5}   bg="rgb(170,215,175)" color='black' height='84vh'
              display={['none','grid','grid', 'none']} >
            <Box   >
             <Image ml={'5rem'} w={'85%'} h={'70%'} src=" https://ghchart.rshah.org/abhijeetkumarshukla" alt="gitStats"/>

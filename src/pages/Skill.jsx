@@ -576,7 +576,7 @@ const Skill = () => {
 
       {/* -------------------------------------------------------------------------------------------- */}
 
-      <Box className="Tech-Stacks" id="skills" bg="rgb(170,215,175)">
+      <Box className="Tech-Stacks" id="skill" bg="rgb(170,215,175)">
         <Heading
           pl={"37%"}
            id="skills"

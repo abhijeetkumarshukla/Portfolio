@@ -168,11 +168,11 @@ const Contact = () => {
 
 
 
-<Heading pl={'36%'}  pt={'8'}  id="contacts" bg='#C6DDB2' color='black' fontSize={'4xl'}
+<Heading pl={'36%'}  pt={'8'}  i  bg='#C6DDB2' color='black' fontSize={'4xl'}
                  display={['grid','grid','none', 'none']}  >𝐂ⱺ𐓣𝗍α𝖼𝗍
         </Heading>
          
-         <SimpleGrid  id="contacts" row={2} pl={12} spacing={10}  bg='#C6DDB2' color='black' height='84vh'
+         <SimpleGrid  id="contact" row={2} pl={12} spacing={10}  bg='#C6DDB2' color='black' height='84vh'
                         display={['grid','grid','none', 'none']}  >
              <Box w={'80%'} m={'auto'}>
              <Image w={'80%'} src={BigImg}/>
@@ -308,11 +308,11 @@ const Contact = () => {
 
 
 
-         <Heading pl={'43%'}  pt={'8'}  id="contacts" bg='#C6DDB2' color='black' fontSize={'4xl'}
+         <Heading pl={'43%'}  pt={'8'}   bg='#C6DDB2' color='black' fontSize={'4xl'}
                  display={['none','grid','grid', 'none']}  >𝐂ⱺ𐓣𝗍α𝖼𝗍
         </Heading>
          
-         <SimpleGrid  id="contacts" row={2} pl={12} spacing={10}  bg='#C6DDB2' color='black' height='84vh'
+         <SimpleGrid  id="contact" row={2} pl={12} spacing={10}  bg='#C6DDB2' color='black' height='84vh'
                         display={['none','grid','grid', 'none']}  >
              <Box w={'80%'} m={'auto'} ml={'15%'}>
              <Image w={'80%'} src={BigImg}/>

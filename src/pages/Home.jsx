@@ -54,7 +54,7 @@ const Home = () => {
      
 
      
- <SimpleGrid id="home" raw={2} spacing={10} bg='rgb(150,215,175)' height='100vh'
+ <SimpleGrid id="homes" raw={2} spacing={10} bg='rgb(150,215,175)' height='100vh'
    color='black'  display={['grid','grid','grid', 'none']}>
   <Box  m='auto' >
        <Text  fontSize='3xl' >

@@ -37,10 +37,10 @@ const About = () => {
 
     {/* ----------------------------------------------------------------------- */}
           
-    <Heading pl={'33%'}  id="about" pt={'8'} bg='#C6DDB2' color='black' fontSize={'4xl'}
+    <Heading pl={'33%'}    pt={'8'} bg='#C6DDB2' color='black' fontSize={'4xl'}
        display={['grid','grid','none', 'none']} >𝐀ᑲⱺυ𝗍 𝐌𝖾</Heading>
 
-    <SimpleGrid  row={2} spacing={10}  id="about" bg='#C6DDB2' color='black' height='100vh'
+    <SimpleGrid  row={2} spacing={10}  id="abouts" bg='#C6DDB2' color='black' height='100vh'
      display={['grid','grid','none', 'none']}>
 
         <Box>
@@ -72,11 +72,11 @@ const About = () => {
          
 
 
-<Heading pl={'37%'}  id="about"  pt={'8'} bg='#C6DDB2' color='black' fontSize={'4xl'}
+<Heading pl={'37%'}     pt={'8'} bg='#C6DDB2' color='black' fontSize={'4xl'}
        display={['none','grid','grid', 'none']} >𝐀ᑲⱺυ𝗍 𝐌𝖾</Heading>
 
     <SimpleGrid  row={2} spacing={10}  bg='#C6DDB2' color='black' height='100vh'
-     display={['none','grid','grid', 'none']}  id="about">
+     display={['none','grid','grid', 'none']}  id="abouts">
 
         <Box>
             <Box w={'80%'} m={'auto'} ml={'20%'} >
